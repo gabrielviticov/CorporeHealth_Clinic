@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "PL1g1cNRWxHQINvvOf2K/XfiwOVRi3DA2ZI9OpY3ThpEEvZYrARyD+HSL7mZ75TnY1rsBcm/Zg7ctvLEo9gP1A==",
+  "success": true,
+  "projectFilePath": "/home/gabrielviticov/Documents/aspnet/webapi/CorporeHealth_Clinic/CorporeHealth_Clinic.API/CorporeHealth_Clinic.API.csproj",
+  "expectedPackageFiles": [
+    "/home/gabrielviticov/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/gabrielviticov/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/gabrielviticov/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/gabrielviticov/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/gabrielviticov/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/gabrielviticov/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/home/gabrielviticov/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.27/microsoft.netcore.app.host.linux-x64.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

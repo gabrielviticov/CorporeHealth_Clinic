@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/CorporeHealth_Clinic.API.props" />
+</Project>

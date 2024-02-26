@@ -1,3 +1,8 @@
+using CorporeHealth_Clinic.API.Data;
+using CorporeHealth_Clinic.API.Domains.Entities.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,7 +12,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<DoctorDbContext>(
+    options => options
+    .UseLazyLoadingProxies()
+    .UseSqlite(
+        builder.Configuration.GetConnectionString("DefaultConnection")
+    )
+);
 
+//Injetar dependência do Identity Framework para uso avançado do entity. 
+builder.Services.AddIdentity<Doctor, IdentityRole>().AddEntityFrameworkStores<DoctorDbContext>().AddDefaultTokenProviders();
 
 var app = builder.Build();
 

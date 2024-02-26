@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/gabrielviticov/Documents/aspnet/webapi/CorporeHealth_Clinic/CorporeHealth_Clinic.Tests/CorporeHealth_Clinic.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/gabrielviticov/Documents/aspnet/webapi/CorporeHealth_Clinic/CorporeHealth_Clinic.API/CorporeHealth_Clinic.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gabrielviticov/Documents/aspnet/webapi/CorporeHealth_Clinic/CorporeHealth_Clinic.API/CorporeHealth_Clinic.API.csproj",
+        "projectName": "CorporeHealth_Clinic.API",
+        "projectPath": "/home/gabrielviticov/Documents/aspnet/webapi/CorporeHealth_Clinic/CorporeHealth_Clinic.API/CorporeHealth_Clinic.API.csproj",
+        "packagesPath": "/home/gabrielviticov/.nuget/packages/",
+        "outputPath": "/home/gabrielviticov/Documents/aspnet/webapi/CorporeHealth_Clinic/CorporeHealth_Clinic.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gabrielviticov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gabrielviticov/Documents/aspnet/webapi/CorporeHealth_Clinic/CorporeHealth_Clinic.Tests/CorporeHealth_Clinic.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gabrielviticov/Documents/aspnet/webapi/CorporeHealth_Clinic/CorporeHealth_Clinic.Tests/CorporeHealth_Clinic.Tests.csproj",
+        "projectName": "CorporeHealth_Clinic.Tests",
+        "projectPath": "/home/gabrielviticov/Documents/aspnet/webapi/CorporeHealth_Clinic/CorporeHealth_Clinic.Tests/CorporeHealth_Clinic.Tests.csproj",
+        "packagesPath": "/home/gabrielviticov/.nuget/packages/",
+        "outputPath": "/home/gabrielviticov/Documents/aspnet/webapi/CorporeHealth_Clinic/CorporeHealth_Clinic.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gabrielviticov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/gabrielviticov/Documents/aspnet/webapi/CorporeHealth_Clinic/CorporeHealth_Clinic.API/CorporeHealth_Clinic.API.csproj": {
+                "projectPath": "/home/gabrielviticov/Documents/aspnet/webapi/CorporeHealth_Clinic/CorporeHealth_Clinic.API/CorporeHealth_Clinic.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
